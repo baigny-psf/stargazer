@@ -2,8 +2,8 @@
   "version": "2.9.0",
   "description": "A personal, distraction-free stargazing dashboard and astronomy portal",
   "scripts": {
-    "dev": "cd nextjs-app && npm run dev",
-    "build": "cd nextjs-app && npm run build",
+    "dev": "node init && cd nextjs-app && npm run dev",
+    "build": "node init && cd nextjs-app && npm run build",
     "lint": "cd nextjs-app && npm run lint",
     "test": "npx playwright test tests/smoke.spec.js"
   },
